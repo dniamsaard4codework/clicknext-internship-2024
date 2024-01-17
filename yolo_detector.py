@@ -1,6 +1,8 @@
 from ultralytics import YOLO
 from ultralytics.utils.plotting import Annotator, colors
 import cv2
+# Use command pip3 freeze > requirements.txt to generate requirements.txt
+# This code has been already remove the video writer function
 
 # Create a list to keep the previous center point for tracking line
 previous_point = []
